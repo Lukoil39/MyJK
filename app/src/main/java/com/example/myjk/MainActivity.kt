@@ -15,7 +15,6 @@ class MainActivity : AppCompatActivity() {
 
     fun toastMe(view : View) {
         val myToast = Toast.makeText(this, "Hello creator!", Toast.LENGTH_SHORT)
-
         myToast.show()
 
     }
